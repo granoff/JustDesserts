@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC352222C1732A8009DB75E /* Just_DessertsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352212C1732A8009DB75E /* Just_DessertsApp.swift */; };
-		4DC352242C1732A8009DB75E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352232C1732A8009DB75E /* ContentView.swift */; };
+		4D5470842C17AC09001A5354 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5470832C17AC09001A5354 /* MockNetworkService.swift */; };
+		4D5470862C17BEED001A5354 /* NetworkServiceProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352512C17340D009DB75E /* NetworkServiceProviding.swift */; };
+		4D5470872C17BEF0001A5354 /* DessertsServiceProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3525A2C173AD8009DB75E /* DessertsServiceProviding.swift */; };
+		4D5470882C17BFFE001A5354 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3524E2C1733D8009DB75E /* NetworkService.swift */; };
+		4D5470892C17BFFE001A5354 /* DessertsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3524C2C1733A4009DB75E /* DessertsService.swift */; };
+		4D54708A2C17C020001A5354 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352542C173489009DB75E /* MealModel.swift */; };
+		4D54708B2C17C020001A5354 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352562C173497009DB75E /* RecipeModel.swift */; };
+		4D54708C2C17C020001A5354 /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352582C1737BB009DB75E /* IngredientModel.swift */; };
+		4DC352222C1732A8009DB75E /* JustDessertsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352212C1732A8009DB75E /* JustDessertsApp.swift */; };
+		4DC352242C1732A8009DB75E /* DessertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352232C1732A8009DB75E /* DessertsView.swift */; };
 		4DC352262C1732B3009DB75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC352252C1732B3009DB75E /* Assets.xcassets */; };
 		4DC352292C1732B3009DB75E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC352282C1732B3009DB75E /* Preview Assets.xcassets */; };
-		4DC352332C1732B3009DB75E /* Just_DessertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352322C1732B3009DB75E /* Just_DessertsTests.swift */; };
-		4DC3523D2C1732B3009DB75E /* Just_DessertsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3523C2C1732B3009DB75E /* Just_DessertsUITests.swift */; };
-		4DC3523F2C1732B3009DB75E /* Just_DessertsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3523E2C1732B3009DB75E /* Just_DessertsUITestsLaunchTests.swift */; };
+		4DC3524D2C1733A4009DB75E /* DessertsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3524C2C1733A4009DB75E /* DessertsService.swift */; };
+		4DC3524F2C1733D8009DB75E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3524E2C1733D8009DB75E /* NetworkService.swift */; };
+		4DC352522C17340D009DB75E /* NetworkServiceProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352512C17340D009DB75E /* NetworkServiceProviding.swift */; };
+		4DC352552C173489009DB75E /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352542C173489009DB75E /* MealModel.swift */; };
+		4DC352572C173497009DB75E /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352562C173497009DB75E /* RecipeModel.swift */; };
+		4DC352592C1737BB009DB75E /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC352582C1737BB009DB75E /* IngredientModel.swift */; };
+		4DC3525B2C173AD8009DB75E /* DessertsServiceProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3525A2C173AD8009DB75E /* DessertsServiceProviding.swift */; };
+		4DC3525D2C1741EF009DB75E /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3525C2C1741EF009DB75E /* DessertDetailView.swift */; };
+		4DC352602C1792D5009DB75E /* DessertsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3525F2C1792D5009DB75E /* DessertsServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +38,26 @@
 			remoteGlobalIDString = 4DC3521D2C1732A8009DB75E;
 			remoteInfo = "Just Desserts";
 		};
-		4DC352392C1732B3009DB75E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DC352162C1732A8009DB75E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DC3521D2C1732A8009DB75E;
-			remoteInfo = "Just Desserts";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D5470832C17AC09001A5354 /* MockNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 		4DC3521E2C1732A8009DB75E /* Just Desserts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Desserts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC352212C1732A8009DB75E /* Just_DessertsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_DessertsApp.swift; sourceTree = "<group>"; };
-		4DC352232C1732A8009DB75E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DC352212C1732A8009DB75E /* JustDessertsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDessertsApp.swift; sourceTree = "<group>"; };
+		4DC352232C1732A8009DB75E /* DessertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsView.swift; sourceTree = "<group>"; };
 		4DC352252C1732B3009DB75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC352282C1732B3009DB75E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DC3522E2C1732B3009DB75E /* Just DessertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just DessertsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC352322C1732B3009DB75E /* Just_DessertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_DessertsTests.swift; sourceTree = "<group>"; };
-		4DC352382C1732B3009DB75E /* Just DessertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Just DessertsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DC3523C2C1732B3009DB75E /* Just_DessertsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_DessertsUITests.swift; sourceTree = "<group>"; };
-		4DC3523E2C1732B3009DB75E /* Just_DessertsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_DessertsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DC3524C2C1733A4009DB75E /* DessertsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsService.swift; sourceTree = "<group>"; };
+		4DC3524E2C1733D8009DB75E /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4DC352512C17340D009DB75E /* NetworkServiceProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceProviding.swift; sourceTree = "<group>"; };
+		4DC352542C173489009DB75E /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		4DC352562C173497009DB75E /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		4DC352582C1737BB009DB75E /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
+		4DC3525A2C173AD8009DB75E /* DessertsServiceProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsServiceProviding.swift; sourceTree = "<group>"; };
+		4DC3525C2C1741EF009DB75E /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
+		4DC3525E2C179114009DB75E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4DC3525F2C1792D5009DB75E /* DessertsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +75,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DC352352C1732B3009DB75E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4DC352152C1732A8009DB75E = {
 			isa = PBXGroup;
 			children = (
+				4DC3525E2C179114009DB75E /* README.md */,
 				4DC352202C1732A8009DB75E /* Just Desserts */,
 				4DC352312C1732B3009DB75E /* Just DessertsTests */,
-				4DC3523B2C1732B3009DB75E /* Just DessertsUITests */,
 				4DC3521F2C1732A8009DB75E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +93,6 @@
 			children = (
 				4DC3521E2C1732A8009DB75E /* Just Desserts.app */,
 				4DC3522E2C1732B3009DB75E /* Just DessertsTests.xctest */,
-				4DC352382C1732B3009DB75E /* Just DessertsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +100,13 @@
 		4DC352202C1732A8009DB75E /* Just Desserts */ = {
 			isa = PBXGroup;
 			children = (
-				4DC352212C1732A8009DB75E /* Just_DessertsApp.swift */,
-				4DC352232C1732A8009DB75E /* ContentView.swift */,
+				4DC352212C1732A8009DB75E /* JustDessertsApp.swift */,
+				4DC352232C1732A8009DB75E /* DessertsView.swift */,
+				4DC3525C2C1741EF009DB75E /* DessertDetailView.swift */,
 				4DC352252C1732B3009DB75E /* Assets.xcassets */,
+				4DC352532C173476009DB75E /* Models */,
+				4DC352502C1733EB009DB75E /* Protocols */,
+				4DC3524B2C173356009DB75E /* Services */,
 				4DC352272C1732B3009DB75E /* Preview Content */,
 			);
 			path = "Just Desserts";
@@ -113,18 +123,38 @@
 		4DC352312C1732B3009DB75E /* Just DessertsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DC352322C1732B3009DB75E /* Just_DessertsTests.swift */,
+				4DC3525F2C1792D5009DB75E /* DessertsServiceTests.swift */,
+				4D5470832C17AC09001A5354 /* MockNetworkService.swift */,
 			);
 			path = "Just DessertsTests";
 			sourceTree = "<group>";
 		};
-		4DC3523B2C1732B3009DB75E /* Just DessertsUITests */ = {
+		4DC3524B2C173356009DB75E /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				4DC3523C2C1732B3009DB75E /* Just_DessertsUITests.swift */,
-				4DC3523E2C1732B3009DB75E /* Just_DessertsUITestsLaunchTests.swift */,
+				4DC3524C2C1733A4009DB75E /* DessertsService.swift */,
+				4DC3524E2C1733D8009DB75E /* NetworkService.swift */,
 			);
-			path = "Just DessertsUITests";
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4DC352502C1733EB009DB75E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4DC352512C17340D009DB75E /* NetworkServiceProviding.swift */,
+				4DC3525A2C173AD8009DB75E /* DessertsServiceProviding.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4DC352532C173476009DB75E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DC352542C173489009DB75E /* MealModel.swift */,
+				4DC352562C173497009DB75E /* RecipeModel.swift */,
+				4DC352582C1737BB009DB75E /* IngredientModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +195,6 @@
 			productReference = 4DC3522E2C1732B3009DB75E /* Just DessertsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4DC352372C1732B3009DB75E /* Just DessertsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC352482C1732B3009DB75E /* Build configuration list for PBXNativeTarget "Just DessertsUITests" */;
-			buildPhases = (
-				4DC352342C1732B3009DB75E /* Sources */,
-				4DC352352C1732B3009DB75E /* Frameworks */,
-				4DC352362C1732B3009DB75E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DC3523A2C1732B3009DB75E /* PBXTargetDependency */,
-			);
-			name = "Just DessertsUITests";
-			productName = "Just DessertsUITests";
-			productReference = 4DC352382C1732B3009DB75E /* Just DessertsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +209,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					4DC3522D2C1732B3009DB75E = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 4DC3521D2C1732A8009DB75E;
-					};
-					4DC352372C1732B3009DB75E = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 4DC3521D2C1732A8009DB75E;
 					};
@@ -221,7 +229,6 @@
 			targets = (
 				4DC3521D2C1732A8009DB75E /* Just Desserts */,
 				4DC3522D2C1732B3009DB75E /* Just DessertsTests */,
-				4DC352372C1732B3009DB75E /* Just DessertsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DC352362C1732B3009DB75E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC352242C1732A8009DB75E /* ContentView.swift in Sources */,
-				4DC352222C1732A8009DB75E /* Just_DessertsApp.swift in Sources */,
+				4DC352572C173497009DB75E /* RecipeModel.swift in Sources */,
+				4DC352242C1732A8009DB75E /* DessertsView.swift in Sources */,
+				4DC3525D2C1741EF009DB75E /* DessertDetailView.swift in Sources */,
+				4DC3525B2C173AD8009DB75E /* DessertsServiceProviding.swift in Sources */,
+				4DC352592C1737BB009DB75E /* IngredientModel.swift in Sources */,
+				4DC352522C17340D009DB75E /* NetworkServiceProviding.swift in Sources */,
+				4DC352222C1732A8009DB75E /* JustDessertsApp.swift in Sources */,
+				4DC3524F2C1733D8009DB75E /* NetworkService.swift in Sources */,
+				4DC352552C173489009DB75E /* MealModel.swift in Sources */,
+				4DC3524D2C1733A4009DB75E /* DessertsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC352332C1732B3009DB75E /* Just_DessertsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DC352342C1732B3009DB75E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DC3523D2C1732B3009DB75E /* Just_DessertsUITests.swift in Sources */,
-				4DC3523F2C1732B3009DB75E /* Just_DessertsUITestsLaunchTests.swift in Sources */,
+				4D5470862C17BEED001A5354 /* NetworkServiceProviding.swift in Sources */,
+				4D5470872C17BEF0001A5354 /* DessertsServiceProviding.swift in Sources */,
+				4D5470842C17AC09001A5354 /* MockNetworkService.swift in Sources */,
+				4D54708A2C17C020001A5354 /* MealModel.swift in Sources */,
+				4D54708B2C17C020001A5354 /* RecipeModel.swift in Sources */,
+				4D54708C2C17C020001A5354 /* IngredientModel.swift in Sources */,
+				4DC352602C1792D5009DB75E /* DessertsServiceTests.swift in Sources */,
+				4D5470882C17BFFE001A5354 /* NetworkService.swift in Sources */,
+				4D5470892C17BFFE001A5354 /* DessertsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +293,6 @@
 			isa = PBXTargetDependency;
 			target = 4DC3521D2C1732A8009DB75E /* Just Desserts */;
 			targetProxy = 4DC3522F2C1732B3009DB75E /* PBXContainerItemProxy */;
-		};
-		4DC3523A2C1732B3009DB75E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DC3521D2C1732A8009DB75E /* Just Desserts */;
-			targetProxy = 4DC352392C1732B3009DB75E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -512,42 +514,6 @@
 			};
 			name = Release;
 		};
-		4DC352492C1732B3009DB75E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UH5GSL36AW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hawkimedia.Just-DessertsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Just Desserts";
-			};
-			name = Debug;
-		};
-		4DC3524A2C1732B3009DB75E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UH5GSL36AW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hawkimedia.Just-DessertsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Just Desserts";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +540,6 @@
 			buildConfigurations = (
 				4DC352462C1732B3009DB75E /* Debug */,
 				4DC352472C1732B3009DB75E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4DC352482C1732B3009DB75E /* Build configuration list for PBXNativeTarget "Just DessertsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DC352492C1732B3009DB75E /* Debug */,
-				4DC3524A2C1732B3009DB75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
